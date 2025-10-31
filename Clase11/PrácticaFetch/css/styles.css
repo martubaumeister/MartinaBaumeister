@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.titulo{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+.character-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 5px;
+}
+.personaje{
+    margin: 10px;
+    border: 1px solid gray;
+}
+p{
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
